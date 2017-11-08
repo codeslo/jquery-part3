@@ -1,0 +1,97 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color:#2F4858;
+}
+
+.container{
+    width:95%;
+}
+
+label{
+    font-size:24px;
+    color:black;
+    
+}
+
+.guest-form{
+    width:600px;
+    height:75%;
+    overflow:hidden;
+    text-align:right;
+    border:2px solid gray;
+    padding:10px;
+    margin:2% auto 2% auto;
+    background-color:white;
+}
+
+.input_section li{
+    list-style: none;
+    margin-bottom:25px;
+    display:inline-block;
+    margin-right:50px;
+    
+}
+
+.text-inputs-list input{
+    height:5%;
+    width:300px;
+    font-size:18px;
+    padding-left:10px;
+}
+
+.text-inputs-list textarea{
+    height:150px;
+    width:300px;
+    font-size:18px;
+    padding:5px;
+}
+
+.checkbox-section{
+    text-align:center;
+    width:100%;
+}
+
+.checkbox{
+    width:25px;
+    height:25px;
+}
+
+.checkbox-list li{
+    display:inline-block;
+}
+
+.checkbox-list label{
+    padding-right:25px;
+}
+
+#message{
+    vertical-align: top;
+}
+
+.button_section{
+    width:100%;
+    text-align:center;
+}
+
+.main-button{
+    background-color: #E8892A;
+    color:white;
+    height:7%;
+    width:150px;
+    padding:5px;
+    font-size:18px;
+    border-radius:10px;
+    
+}
+
+a:link, a:visited{
+    text-decoration:none;
+    color:white;
+}
+
+.validate-this::placeholder{
+    color: #B24375;
+    font-style:italic;
+}
+

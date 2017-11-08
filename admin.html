@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/tableStyle.css" />
+</head>
+
+<body onload="getPartiers()">
+    <table id="partyTable">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Message</th>
+            <th>Attending?</th>
+            <th>Full Name</th>
+            <th>Edit</th>
+            <th>Save</th>
+        </tr>
+    </table>
+
+    <div class="edit-message">
+        <h2>Click on any yellow cell to edit</h2>
+        <h3>Click save when done</h3>
+    </div>
+
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="adminScripts.js"></script>
+</body>
+
+</html>

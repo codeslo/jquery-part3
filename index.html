@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Introduction to jQuery</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" class="guest-form" id="rsvp-form">
+            <section id="text-inputs" class="input_section">
+                <ul class="text-inputs-list">
+                    <label for="first_name">First Name:</label>
+                    <li>
+                        <input class="validate-this" type="text" id="first_name" name="firstName" data-fieldname="first name">
+                    </li>
+                    <br>
+                    <label for="last_name">Last Name:</label>
+                    <li class="validated">
+                        <input class="validate-this" type="text" id="last_name" name="lastName" data-fieldname="last name">
+                    </li>
+                    <br>
+                    <label for="user_email">Email:</label>
+                    <li class="validated">
+                        <input class="validate-this" type="email" id="user_email" name="userEmail" data-fieldname="email">
+                    </li>
+                    <br>
+                    <label for="phone_number">Phone Number:</label>
+                    <li class="validated">
+                        <input class="validate-this" type="text" id="phone_number" name="phoneNumber" data-fieldname="phone number">
+                    </li>
+                    <br>
+                    <label for="message">Message (optional)</label>
+                    <li class="validated">
+                        <textarea id="message" name="message"></textarea>
+                    </li>
+                    <br>
+                </ul>
+            </section>
+            <section id="rsvp-boxes" class="checkbox-section">
+                <ul class="checkbox-list">
+                    <li>
+                        <input type="checkbox" id="rsvp-yes" class="checkbox" name="rsvp-yes">
+                    </li>
+                    <label for="rsvp-yes">Yes, I'm coming!</label>
+
+                    <li>
+                        <input type="checkbox" id="rsvp-no" class="checkbox" name="rsvp-no">
+                    </li>
+                    <label for="rsvp-no">No, I can't make it.</label>
+
+                </ul>
+            </section>
+            <section class="button_section">
+                <button type="button" class="main-button" id="submit-button">Submit</button>
+                <button type="button" class="main-button" id="admin-button"><a href="admin.html">Admin Page</a></button>
+            </section>
+        </form>
+    </div>
+
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
